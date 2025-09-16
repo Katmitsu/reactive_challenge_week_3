@@ -122,3 +122,31 @@ footer {
   margin: 0px;
   padding-bottom: 20px;
 }
+
+.navbar {
+  background: var(--main-color);
+}
+
+/* Solid purple button */
+.btn-purple {
+  background-color: #6f42c1; /* Bootstrap’s purple */
+  color: #fff;
+  border: none;
+}
+
+.btn-purple:hover {
+  background-color: #59359c; /* darker purple on hover */
+  color: #fff;
+}
+
+/* Outline purple button */
+.btn-outline-purple {
+  color: #6f42c1;
+  border: 2px solid #6f42c1;
+  background-color: transparent;
+}
+
+.btn-outline-purple:hover {
+  background-color: #6f42c1;
+  color: #fff;
+}
